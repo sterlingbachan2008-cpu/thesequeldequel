@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Star Drift</title><link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+<header><div><span class="eyebrow">A LITTLE SPACE ESCAPE</span><h1>STAR<span>DRIFT</span></h1></div><div class="best">PERSONAL BEST<strong id="best">0</strong></div></header>
+<section class="game" aria-label="Star Drift game">
+<div class="hud"><span>SCORE <b id="score">0</b></span><button id="pause" disabled>Pause</button></div>
+<canvas width="600" height="640" aria-label="Move your ship to collect gold stars and avoid pink asteroids"></canvas>
+<div class="overlay" id="overlay"><span class="eyebrow">YOUR SHIP. YOUR ORBIT.</span><h2 id="title">Find your flow.</h2><p id="message">Collect the stars. Dodge the asteroids.<br>See how long you can drift.</p><button id="start">Let's fly <span>↗</span></button></div>
+</section>
+<footer><span><kbd>←</kbd> <kbd>→</kbd> or <kbd>A</kbd> <kbd>D</kbd> to steer</span><span>Touch & drag on mobile · P to pause</span></footer>
+</main><script src="game.js"></script>
+</body></html>
